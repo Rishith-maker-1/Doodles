@@ -1,0 +1,33 @@
+body{
+    background-color: deepskyblue;
+}
+h1{
+    color: wheat;
+    background-color: rgba(0, 191, 255, 0.74);
+}
+#show-sketch{
+    float:right;
+}
+p{
+    padding-top: 10px;
+    font-size: 30px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes example{
+    0%{
+        box-shadow: 1px 1px 40px white;
+    }
+    50%{
+        box-shadow:0.5px 0.5px 30px grey;
+    }
+    100%{
+        box-shadow: 1px 1px 40px white;
+    }
+}
